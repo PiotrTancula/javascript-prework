@@ -55,7 +55,7 @@
 
         console.log('Wylosowana liczba to: ' + randomNumber);
 
-        let computerMove = getMoveName(randomNumber);
+        const computerMove = getMoveName(randomNumber);
 
         // if(randomNumber == 1){
         //   computerMove = 'kamień';
