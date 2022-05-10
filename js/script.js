@@ -124,9 +124,9 @@
 
     }
 
-    let rockButton = document.getElementById('play-rock');
-    let paperButton = document.getElementById('play-paper');
-    let scissorsButton = document.getElementById('play-scissors');
+    const rockButton = document.getElementById('play-rock');
+    const paperButton = document.getElementById('play-paper');
+    const scissorsButton = document.getElementById('play-scissors');
 
     rockButton.addEventListener('click', function () {
         playGame(1);
