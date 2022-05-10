@@ -73,7 +73,7 @@
 
         console.log('Gracz wpisał: ' + playerInput);
 
-        let playerMove = getMoveName(playerInput);
+        const playerMove = getMoveName(playerInput);
 
         // if(playerInput == '1'){
         //   playerMove = 'kamień';
